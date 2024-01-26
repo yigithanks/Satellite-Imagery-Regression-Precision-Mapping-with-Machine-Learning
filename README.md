@@ -9,7 +9,7 @@ image. Both models take 3 int16 values as their input and should return 3 int8 v
 output. In the report, the process of constructing the models is explained along with
 reasonings, and some questions are answered.
 
-**Machine Learning Design Methodology**
+## Machine Learning Design Methodology
 
 The design methodology of the ML models consists of several steps. Since the models that
 we are supposed to work with are provided, preprocessing of the data is maintained in a
@@ -50,6 +50,8 @@ of the images is preserved, and the train and test sets are more close to the re
 could be studied. Moreover, I wanted to use this splitting to be able to visually examine
 my models and be able to see the differences between y_pred and y_test after running
 the models. The train and test splits for this method can be seen below.
+
+![train](https://github.com/yigithanks/Satellite-Imagery-Regression-Precision-Mapping-with-Machine-Learning/assets/125910884/6c94afa9-0a04-4da9-a74b-a96b0c100b8a)
 
 ![Train image after splitting](image_url)
 ![Test image after splitting](image_url)
