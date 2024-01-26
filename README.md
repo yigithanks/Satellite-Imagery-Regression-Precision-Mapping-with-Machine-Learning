@@ -51,7 +51,13 @@ could be studied. Moreover, I wanted to use this splitting to be able to visuall
 my models and be able to see the differences between y_pred and y_test after running
 the models. The train and test splits for this method can be seen below.
 
+<img width="801" alt="train" src="https://github.com/yigithanks/Satellite-Imagery-Regression-Precision-Mapping-with-Machine-Learning/assets/125910884/7e2db1fb-677b-40fc-b40f-09094e9bd95a">
 
+**Train Image**
+
+<img width="800" alt="test" src="https://github.com/yigithanks/Satellite-Imagery-Regression-Precision-Mapping-with-Machine-Learning/assets/125910884/d70f5a4e-0fb3-485b-8664-ab08d9223dd7">
+
+**Test Image**
 
 To ensure the reliability of the model, another resampling method of Cross-Validation is
 used as well. Unlike the train-test split method explained above, for the Cross-Validation,
@@ -88,6 +94,14 @@ model was not able to predict correctly (it is noticeable that almost all of the
 as blue pixels after incorrect predictions), overall the input image is obtained with a very
 high similarity and the colors and patterns of the image is highly presented in the predicted
 output.
+
+<img width="802" alt="y_pred" src="https://github.com/yigithanks/Satellite-Imagery-Regression-Precision-Mapping-with-Machine-Learning/assets/125910884/828e5963-b894-493b-ad77-18a333e84954">
+
+**Predicted Image**
+
+<img width="800" alt="y_test" src="https://github.com/yigithanks/Satellite-Imagery-Regression-Precision-Mapping-with-Machine-Learning/assets/125910884/f6800b38-646b-414c-8bc3-640778b142d9">
+
+**True Image**
 
 
 
