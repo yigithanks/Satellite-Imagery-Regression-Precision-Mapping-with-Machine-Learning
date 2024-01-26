@@ -51,10 +51,7 @@ could be studied. Moreover, I wanted to use this splitting to be able to visuall
 my models and be able to see the differences between y_pred and y_test after running
 the models. The train and test splits for this method can be seen below.
 
-![train](https://github.com/yigithanks/Satellite-Imagery-Regression-Precision-Mapping-with-Machine-Learning/assets/125910884/6c94afa9-0a04-4da9-a74b-a96b0c100b8a)
 
-![Train image after splitting](image_url)
-![Test image after splitting](image_url)
 
 To ensure the reliability of the model, another resampling method of Cross-Validation is
 used as well. Unlike the train-test split method explained above, for the Cross-Validation,
@@ -92,8 +89,7 @@ as blue pixels after incorrect predictions), overall the input image is obtained
 high similarity and the colors and patterns of the image is highly presented in the predicted
 output.
 
-![y_test for Visual Examination](image_url)
-![y_pred Visualized (Linear Regression)](image_url)
+
 
 I tried both Ridge and Lasso regularization to see if it will improve the model performance.
 Both Ridge and Lasso regularizations add penalty terms to the coefficients and helps to 
